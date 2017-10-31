@@ -1,0 +1,7 @@
+{
+  "name": "@automated/plugin-jest",
+  "version": "0.0.1",
+  "dependencies": {
+    "jest": "^21.2.1"
+  }
+}
