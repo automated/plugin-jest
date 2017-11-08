@@ -2221,10 +2221,6 @@ filename-regex@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/filename-regex/-/filename-regex-2.0.1.tgz#c1c4b9bee3e09725ddb106b75c1e301fe2f18b26"
 
-filepath-to-title@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/filepath-to-title/-/filepath-to-title-0.1.2.tgz#cfd987e9ea5145c59779974a48a23d645fbbe4c2"
-
 fileset@^2.0.2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/fileset/-/fileset-2.0.3.tgz#8e7548a96d3cc2327ee5e674168723a333bba2a0"
