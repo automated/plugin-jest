@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 pwd=`pwd`
 jest='/node_modules/@automated/plugin-jest'
