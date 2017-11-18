@@ -10,4 +10,4 @@ jobs:
       - run: yarn lint
       - run: yarn build:prod
       - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
-      - run: npm publish
+      - run: npm run publish
