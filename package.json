@@ -19,6 +19,7 @@
     "url": "git+https://github.com/automated-tools/plugin-jest.git"
   },
   "scripts": {
+    "build:prod": "NODE_ENV=production webpack",
     "build:watch": "webpack --watch",
     "build": "webpack",
     "lint": "eslint --cache --ignore-path .gitignore --ext .js --ext .jsx .",
@@ -45,6 +46,7 @@
     "react-component-permutations": "^1.0.0-beta2",
     "react-dom": "^16.0.0",
     "react": "^16.0.0",
+    "uglifyjs-webpack-plugin": "^1.0.1",
     "webpack": "^3.8.1"
   }
 }
