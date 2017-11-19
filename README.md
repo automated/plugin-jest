@@ -1,5 +1,7 @@
 # Jest Plugin for [Automated](https://github.com/automated-tools/automated)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/automated-tools/plugin-jest.svg)](https://greenkeeper.io/)
+
 Adds Jest snapshots
 
 # Setup
