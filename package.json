@@ -8,6 +8,7 @@
   },
   "description": "Jest plugin for automated",
   "files": [
+    "collection-running",
     "dist"
   ],
   "homepage": "https://github.com/automated-tools/plugin-jest",
