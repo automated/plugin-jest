@@ -22,7 +22,7 @@ runner({ config, component });" > "$jestDir/__index.js"
 
 pwd=`pwd`
 jest='/node_modules/@automated/plugin-jest'
-bin='./node_modules/.bin/jest' # '/node_modules/.bin/jest'
+bin='npm run jest' # '/node_modules/.bin/jest'
 setupTestFrameworkScriptFile='/lib/setup/setup-test-framework-script-file.js'
 
 # maintain arg quotes - https://stackoverflow.com/a/24179878/537998
@@ -37,16 +37,12 @@ function requote() {
 }
 cliArgs=$(requote "${@}")
 
-cd $pwd$jest
-
 jestArgs="
---rootDir=$pwd
 --testRegex=\.automated/jest/.*.js$
 --setupTestFrameworkScriptFile=$pwd$jest$setupTestFrameworkScriptFile
 --no-cache
 --colors
 --logHeapUsage
 "
-# --coverage
 
 $bin$jestArgs$cliArgs
