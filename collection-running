@@ -40,9 +40,13 @@ cliArgs=$(requote "${@}")
 cd $pwd$jest
 
 jestArgs="
+--rootDir=$pwd
 --testRegex=\.automated/jest/.*.js$
 --setupTestFrameworkScriptFile=$pwd$jest$setupTestFrameworkScriptFile
---rootDir=$pwd
+--no-cache
+--colors
+--logHeapUsage
 "
+# --coverage
 
 $bin$jestArgs$cliArgs
