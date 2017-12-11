@@ -10,22 +10,16 @@ Adds Jest snapshots
 
 # Setup
 
-Add [Jest](https://facebook.github.io/jest/) (shouldn’t be needed [much longer](https://github.com/automated/plugin-jest/issues/3))
+Add Automated and [Jest](https://facebook.github.io/jest/) (shouldn’t be needed [much longer](https://github.com/automated/plugin-jest/issues/3))
 
 ```bash
-yarn add jest@21
+yarn add automated@latest jest@21
 ```
 
 Add the following to your `.gitignore`
 
 ```bash
 */.automated/jest/__index.js
-```
-
-Install automated
-
-```bash
-yarn add automated
 ```
 
 Run automated
