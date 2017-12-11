@@ -19,7 +19,7 @@ yarn add automated@latest jest@21
 Add the following to your `.gitignore`
 
 ```bash
-*/.automated/jest/__index.js
+.automated/jest/__index.js
 ```
 
 Run automated
