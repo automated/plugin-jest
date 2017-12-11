@@ -22,7 +22,7 @@ runner({ config, component });" > "$jestDir/__index.js"
 
 pwd=`pwd`
 jest='/node_modules/@automated/plugin-jest'
-bin='/node_modules/.bin/jest'
+bin='npm run automated-plugin-jest'
 setupTestFrameworkScriptFile='/lib/setup/setup-test-framework-script-file.js'
 
 # maintain arg quotes - https://stackoverflow.com/a/24179878/537998
@@ -40,6 +40,9 @@ cliArgs=$(requote "${@}")
 jestArgs="
 --testRegex=\.automated/jest/.*.js$
 --setupTestFrameworkScriptFile=$pwd$jest$setupTestFrameworkScriptFile
+--no-cache
+--colors
+--logHeapUsage
 "
 
-$pwd$jest$bin$jestArgs$cliArgs
+$bin$jestArgs$cliArgs
