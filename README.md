@@ -34,3 +34,7 @@ this
 ```bash
 yarn automated jest\[--updateSnapshot --watch\]
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fautomated-tools%2Fplugin-jest.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fautomated-tools%2Fplugin-jest?ref=badge_large)
